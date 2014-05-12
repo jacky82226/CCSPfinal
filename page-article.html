@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="js/jquery-2.1.0.min.js"></script>
+	<script src="js/magic_jacky.js"></script>
+	<script src="js/jquery-1.10.2.js"></script>
+	<script src="js/jquery-ui-1.10.4.custom.js"></script>
+	<script src="js/jquery-ui-1.10.4.custom.min.js"></script>
+	<link rel=stylesheet type="text/css" href="css/bootstrap_spacelab.css">
+	<link rel=stylesheet type="text/css" href="css/style_jacky.css">
+<body>
+	<button type="button" id="comment" class="btn btn-danger">評論></button>
+	<div id="sidebar">
+		<ul id="sidebar_nav"class="nav nav-pills">
+		  <li id="middle"class="active pointer"><a>保留<span class="badge">0</span></a></li>
+		  <li id="positive" class="pointer"><a>正方<span class="badge">0</span></a></li>
+		  <li id="negative" class="pointer"><a>反方<span class="badge">0</span></a></li>
+		</ul>
+		<button type="button" id="want_comment" class="btn btn-default btn-lg btn-block">我要回應</button>
+		<div id="comment_list"class="list-group">
+		</div>
+	</div>
+<form id="dialog-form" class="form-horizontal">
+  <fieldset>
+    <legend>我要評論...</legend>
+    <div class="form-group">
+      <label class="col-lg-2 control-label">名稱</label>
+      <div class="col-lg-10">
+        <input type="text" class="form-control" id="input_name" placeholder="名稱">
+      </div>
+    </div>
+    <div class="form-group">
+      <label for="textArea" class="col-lg-2 control-label">評論內容</label>
+      <div class="col-lg-10">
+        <textarea class="form-control" rows="3" id="input_content"></textarea>
+        <span class="help-block">A longer block of help text that breaks onto a new line and may extend beyond one line.</span>
+      </div>
+    </div>
+    <div class="form-group">
+      <label for="select" class="col-lg-2 control-label">立場</label>
+      <div class="col-lg-10">
+        <select class="form-control" id="select_opinion">
+          <option value="1">保留</option>
+          <option value="2">正方</option>
+          <option value="0">反方</option>
+        </select>
+        <br>
+      </div>
+    </div>
+    <div class="form-group">
+      <div class="col-lg-10 col-lg-offset-2">
+      	<span id="comment_submit" class="label label-success pointer">送出</span>
+      	<span id="comment_cancel" class="label label-warning pointer">放棄</span>
+      </div>
+    </div>
+  </fieldset>
+</form>
+
+	<div id="container">
+		<div id="content">
+			<div id="logo_img"><img src="img/slapfacebnr3.png"/></div>
+			<div id="article_box">
+				<div id="title"><h1>公民要割闌尾 蔡正元：呵呵 歡迎來！</h1></div>
+				<div id="feature_img"><img width="600" src="img/fuck.jpg"/></div>
+				<p id="article">
+ 					公民要割闌尾 蔡正元：呵呵 歡迎來！ http://newtalk.tw/news/2014/05/05/46956.html 新頭殼newtalk2014.05.05 林雨佑/綜合報導 「割闌尾計畫」團隊今（5）日上午召開記者會宣布正式展開罷免行動，並直接點名網路 投票前3名要罷免的國民黨立委，依序分別是蔡正元、林鴻池、吳育昇。對此行動，蔡正 元回應歡迎「割闌尾」，並回嗆說台灣有暴戾之氣，長了很多黴菌，必要的時候要來「除 綠黴」。 罷免國民黨立委的「全民割闌委、監督爛立委」一發動立刻獲得熱烈響應，募款計畫從 5/3上網至今即募得970多萬元；割闌尾計畫團隊今天上午正式召開記者會，直接點名網路 投票前3名要罷免的國民黨立委，發動全民罷免行動。 對此，蔡正元回應說「呵呵，歡迎來（提罷免）。」此外，他也提議，現在台灣有暴戾之 氣的潮濕空氣，長了很多黴菌，所以要想辦法，若有必要的時候大清掃來「除綠黴」。將 來是否提告？蔡表示，還要看情況。 國民黨政策會執行長林鴻池表示，這個社會已經夠亂了，不要只以自己的意見為意見，想 置不同意見的人於死地，就發動罷免，這是民主政治的悲哀和倒退。會不會對提罷免行為 的人提告？他則表示，尊重言論自由，且國家有很多事要處理，沒時間跟他們耗。 另一位被點名要罷免的立委吳育昇，則選擇不回應。
+				</p>
+				<h3>Selected Text</h3>
+				<span id="selectedText" style="display:block">None</span>
+			</div>
+			<div id="bottom_img"><img src="img/slambnr6.png"/></div>
+		</div>
+	</div>
+</body>
+</html>

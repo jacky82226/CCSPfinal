@@ -1,0 +1,70 @@
+body{
+	font-family: "蘋果儷黑體";
+	background: #f6f6f6;
+}
+#container{
+	width: 700px;
+	margin: 0 auto;
+}
+#content{
+	width: 700px;
+}
+#logo_img{
+	text-align: center;
+}
+#bottom_img{
+	text-align: center;
+}
+#article_box{
+	padding: 25px;
+	background: white;
+}
+#title{
+	margin-bottom: 30px;
+}
+#feature_img{
+	text-align: center;
+	margin-bottom: 30px;
+}
+#article{
+	margin: 0 auto;
+	width: 600px;
+	font-size: 1.3em; 
+}
+#sidebar{
+	position: fixed;
+	float: left;
+	background: white;
+	width: 320px;
+	margin:0 0 0 -320px;
+}
+#comment{
+	position: fixed;
+	z-index: 1;
+}
+.btn{
+	width: 64px !important;
+}
+#sidebar_nav{
+}
+#want_comment{
+	margin-top: 1px;
+	width: 320px !important;
+}
+
+#dialog-form{
+	background: white;
+	width: 600px!important;
+	height: 700px!important;
+	padding: 30px !important;
+}
+.ui-dialog-titlebar-close {
+  visibility: hidden;
+}
+.pointer{
+	cursor: pointer;
+}
+.nav>li>a{
+	width:85px;
+	padding:10px 10px;
+}
