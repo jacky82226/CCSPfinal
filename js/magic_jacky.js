@@ -137,7 +137,7 @@ $(function(){
 	function displaycomment(text_index,comment_index){
 		for(j=0;j<textrange[text_index].comment[comment_index].length;++j)
 		{
-			$('#comment_list').append("<a href=\"#\" class=\"list-group-item\">"+textrange[text_index].comment[comment_index][j].content+"</a>");
+			$('#comment_list').append("<a href=\"#\" class=\"list-group-item\">"+textrange[text_index].comment[comment_index][j].content+"<div class=\"little_name\">"+textrange[text_index].comment[comment_index][j].name+"</div></a>");
 		}
 	}
 	$("#article").mouseup(

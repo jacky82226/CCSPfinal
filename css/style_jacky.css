@@ -68,3 +68,9 @@ body{
 	width:85px;
 	padding:10px 10px;
 }
+.little_name{
+	float: right;
+	font-size: 0.8em;
+	margin-top: 15px;
+	color: blue;
+}
