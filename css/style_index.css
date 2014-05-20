@@ -1,0 +1,46 @@
+body{
+	background: #f6f6f6;
+	text-align: center;
+}
+
+p{
+	padding:0 10px 0 10px;
+}
+
+.container{
+	width:700px;
+	background: #FFFFFF;
+	margin:0 auto;
+
+}
+
+.content{
+	width: 700px;
+}
+
+.article{
+	float:left;
+	width:700px;
+	height: 200px;
+	margin: 0 400px 20px -15px;
+	background-color: #DDDDFF;
+	text-align: left;
+}
+
+.tagbar{
+	position: fixed;
+	float:left;
+	width: 320px;
+}
+
+.tag{
+	margin:10px;
+}
+
+.condition{
+	margin:10px;
+}
+
+#logo_img{
+	margin-bottom:40px;
+}
