@@ -7,6 +7,13 @@ p{
 	padding:0 10px 0 10px;
 }
 
+.pic img {
+max-width:150px;
+max-height:150px;
+myimg:expression(onload=function(){
+this.style.width=(this.offsetWidth > 150)?"150px":"auto"});
+}
+
 .container{
 	width:700px;
 	background: #FFFFFF;
@@ -25,6 +32,11 @@ p{
 	margin: 0 400px 20px -15px;
 	background-color: #DDDDFF;
 	text-align: left;
+}
+
+.pic{
+	float:left;
+
 }
 
 .tagbar{
