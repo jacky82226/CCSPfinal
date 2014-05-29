@@ -10,10 +10,6 @@ $(function(){
 		search("正常");
 	})
 
-	$('#orange').click(function(){
-		search("激戰中");
-	})
-
 	$('#red').click(function(){
 		search("打臉");
 	})
@@ -23,7 +19,7 @@ $(function(){
 		$('.title, .description, .label').each(function(){
 			if ($(this).text().indexOf(keyword)>=0){
 				console.log($(this).text());
-				$(this).parent().show();
+				$(this).parent().parent().show();
 			}
 		})
 	}
