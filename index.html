@@ -1,158 +1,218 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<script src="js/jquery-2.1.0.min.js"></script>
-	<script src="js/magic.js"></script>
-		<script src="js/magic_abc.js"></script>
-	<link rel=stylesheet type="text/css" href="css/bootstrap_spacelab.css">
-	<link rel=stylesheet type="text/css" href="css/style.css">
-	<link rel=stylesheet type="text/css" href="css/style_index.css">
-	<meta charset="UTF-8">
-</head>
-<body>
-	<div class="tagbar">
-		<span class="condition">
-		<button type="button" id="green" class="btn btn-success btn-lg">0.0</button>
-		</span>
-		<span class="condition">
-		<button type="button" id="red" class="btn btn-danger btn-lg">X.X</button>
-		</span>
-		<div class="form-group">
-		  	<label class="control-label">搜尋熱門標籤或文章</label>
-		  	<div class="input-group">
-			    <input id="keyword" class="form-control" placeholder="輸入關鍵字" type="text">
-			    <span class="input-group-btn">
-			    <button id="search" class="btn btn-primary" type="button">搜尋</button>
-			    </span>
- 		 	</div>
-		</div>
-	</div>
-	<div class="container">
-		<div class="content">
-			<div id="logo_img"><img src="img/slapfacebnr3.png"/></div>
-			<div class="article">
-				<div class="titlebox">
-				<h2 class="title">焦點評論：打台灣人 不是一場誤會</h2>
-				
-				    	<div class="progress">
-			  				<div class="progress-bar progress-bar-success" style="width: 50%"></div>
-			  				<div class="progress-bar progress-bar-danger" style="width: 50%"></div>
-						</div>
-				</div>
-				<div class="descbox">
-				<div class="pic"><img src="img/001.jpg"></div>
-					
-				<p class="description">這次發生在越南平陽省大規模工人暴動，台商工廠遭受嚴重破壞，原因除了是南海主權爭議問題，歷史上的中越情仇外，新近越─中兩國政經關係發展，是個常被忽略的重要因素。</p>
-				</div>
-				<div class="labelbox">
-				<span class="label label-success">正常</span>
-				<span class="label label-primary">越南</span>
-				<span class="label label-primary">國際</span>
-				<span class="label label-primary">外交</span>
-				</div>
-			</div>
-			<div class="article">
-				<div class="titlebox">
-				<h2 class="title">越南518反中遊行　日本也緊張</h2>
-				
-				    	<div class="progress">
-			  				<div class="progress-bar progress-bar-success" style="width: 60%"></div>
-			  				<div class="progress-bar progress-bar-danger" style="width: 40%"></div>
-						</div>
-					</div>
 
-					<div class="descbox">
-				<div class="pic"><img src="img/002.jpg"></div>
-				<p class="description">越南預計在明天發起全國性的反中大遊行，雖然該活動是從民間組織「越青」所發起的活動，但台商及多國廠商皆擔心會遭到波及和影響，其中日本政府也發出相關警示訊息。</p>
-			</div>
-			<div class="labelbox">
-				<span class="label label-success">正常</span>
-				<span class="label label-primary">越南</span>
-				<span class="label label-primary">國際</span>
-				<span class="label label-primary">外交</span>
-			</div>
-		</div>
-			<div class="article">
-				<div class="titlebox">
-				<h2 class="title">越南明大遊行　​​旅遊警示調全境黃色</h2>
-				
-				    	<div class="progress">
-			  				<div class="progress-bar progress-bar-success" style="width: 50%"></div>
-			  				<div class="progress-bar progress-bar-danger" style="width: 50%"></div>
-						</div>
-					</div>
-					<div class="descbox">
-				<div class="pic"><img src="img/003.jpg"></div>
-				<p class="description">因應越南518遊行，行政院上午召開「越南暴動事件因應小組」第3次會議......</p>
-			</div>
-			<div class="labelbox">
-				<span class="label label-success">正常</span>
-				<span class="label label-primary">越南</span>
-				<span class="label label-primary">國際</span>
-				<span class="label label-primary">外交</span>
-			</div>
-		</div>
-			<div class="article">
-				<div class="titlebox">
-				<h2 class="title">黃國昌、林飛帆、陳為廷　明組「島國前進」</h2>
-				
-				    	<div class="progress">
-			  				<div class="progress-bar progress-bar-success" style="width: 80%"></div>
-			  				<div class="progress-bar progress-bar-danger" style="width: 20%"></div>
-						</div>
-					</div>
-					<div class="descbox">
-				<div class="pic"><img src="img/004.jpg"></div>
-				<p class="description">太陽花學運4月10日離開立法院時，喊著口號是「出關播種」，強調當時並非句點，而是個逗號，如今傳出學運三巨頭黃國昌、林飛帆和陳為廷將組成「島國前進」新團體，預計明天召開記者會。</p>
-			</div>
-			<div class="labelbox">
-				<span class="label label-success">正常</span>
-				<span class="label label-primary">太陽花</span>
-				<span class="label label-primary">學運</span>
-				<span class="label label-primary">政治</span>
-			</div>
-		</div>
-			<div class="article">
-				<div class="titlebox">
-				<h2 class="title">不明物體墜落黑龍江　俄方否認是火箭殘骸</h2>
-				
-				    	<div class="progress">
-			  				<div class="progress-bar progress-bar-success" style="width: 30%"></div>
-			  				<div class="progress-bar progress-bar-danger" style="width: 70%"></div>
-						</div>
-					</div>
-					<div class="descbox">
-				<div class="pic"><img src="img/005.jpg"></div>
-				<p class="description">黑龍江齊齊哈爾官方昨晚8時確認，5個不明飛行物體先後墜入黑龍江的依安縣和拜泉縣境內。5個不明飛行物體均無有毒氣體洩漏、無有毒液體洩漏，也無爆炸危險，並未對當地居民生活造成不良影響和財產損失。</p>
-			</div>
-			<div class="labelbox">
-				<span class="label label-danger">打臉</span>
-				<span class="label label-primary">俄羅斯</span>
-				<span class="label label-primary">國際</span>
-				<span class="label label-primary">中國</span>
-			</div>
-		</div>
-			<div class="article">
-				<div class="titlebox">
-				<h2 class="title">一個國家兩個世界　北韓真實照片流出</h2>
-				
-				    	<div class="progress">
-			  				<div class="progress-bar progress-bar-success" style="width: 60%"></div>
-			  				<div class="progress-bar progress-bar-danger" style="width: 40%"></div>
-						</div>
-					</div>
-					<div class="descbox">
-				<div class="pic"><img src="img/006.jpg"></div>
-				<p class="description">北韓相當重視自己的國家形象，在對外流出的影片或相片中，他們總希望能給全世界一種富有與整齊一致的印象。至於到底北韓國內長什麼樣子，只有從偷拍到的畫面才能夠拼湊出來。</p>
-			</div>
-			<div class="labelbox">
-				<span class="label label-success">正常</span>
-				<span class="label label-primary">北韓</span>
-				<span class="label label-primary">國際</span>
-				<span class="label label-primary">攝影</span>
-			</div>
-		</div>
-		</div>
-	</div>
+<head>
+    <script src="js/jquery-2.1.0.min.js"></script>
+    <script src="js/magic.js"></script>
+    <script src="js/magic_abc.js"></script>
+    <link rel=stylesheet type="text/css" href="css/bootstrap_spacelab.css">
+    <link rel=stylesheet type="text/css" href="css/style.css">
+    <link rel=stylesheet type="text/css" href="css/style_index.css">
+    <meta charset="UTF-8">
+</head>
+
+<body>
+    <div id="sidebar_left">
+        <span class="condition">
+            <button type="button" id="all" class="btn btn-info btn-lg">顯示全部</button>
+        </span>
+        <span class="condition">
+            <button type="button" id="green" class="btn btn-success btn-lg">正常</button>
+        </span>
+        <span class="condition">
+            <button type="button" id="red" class="btn btn-danger btn-lg">打臉</button>
+        </span>
+
+        <div class="form-group" id="search_input">
+            <label class="control-label">搜尋熱門標籤或文章</label>
+            <div class="input-group">
+                <input id="keyword" class="form-control" placeholder="輸入關鍵字" type="text">
+                <span class="input-group-btn">
+                    <button id="search" class="btn btn-primary" type="button">搜尋</button>
+                </span>
+            </div>
+        </div>
+
+        <div id="current_tag">
+            <ul class="nav nav-pills">
+                <li id="current"><a href="#" id="tag_name">阿帕契 <span class="badge">42</span></a>
+                </li>
+            </ul>
+        </div>
+
+        <div id="hottag">
+            <ul class="nav nav-pills">
+                <li class="active"><a href="#">阿帕契 <span class="badge">42</span></a>
+                </li>
+                <li class="active"><a href="#">茄子 <span class="badge">22</span></a>
+                </li>
+                <li class="active"><a href="#">粽子 <span class="badge">6</span></a>
+                </li>
+                <li class="active"><a href="#">香蕉 <span class="badge">3</span></a>
+                </li>
+                <li class="active"><a href="#">越南 <span class="badge">3</span></a>
+                </li>
+                <li class="active"><a href="#">太陽花 <span class="badge">3</span></a>
+                </li>
+                <li class="active"><a href="#">俠盜獵車手 <span class="badge">3</span></a>
+                </li>
+                <li class="active"><a href="#">大腸花 <span class="badge">3</span></a>
+                </li>
+                <li class="active"><a href="#">祭止兀 <span class="badge">3</span></a>
+                </li>
+                <li class="active"><a href="#">大西瓜 <span class="badge">3</span></a>
+                </li>
+                <li class="active"><a href="#">屈原 <span class="badge">3</span></a>
+                </li>
+                <li class="active"><a href="#">漁夫 <span class="badge">3</span></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="content">
+            <div id="logo_img">
+                <img src="img/slapfacebnr3.png" />
+            </div>
+            <div class="article">
+                <div class="titlebox">
+                    <h2 class="title">焦點評論：打台灣人 不是一場誤會</h2>
+
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-success" style="width: 50%"></div>
+                        <div class="progress-bar progress-bar-danger" style="width: 50%"></div>
+                    </div>
+                </div>
+                <div class="descbox">
+                    <div class="pic">
+                        <img src="img/001.jpg">
+                    </div>
+
+                    <p class="description">這次發生在越南平陽省大規模工人暴動，台商工廠遭受嚴重破壞，原因除了是南海主權爭議問題，歷史上的中越情仇外，新近越─中兩國政經關係發展，是個常被忽略的重要因素。</p>
+                </div>
+                <div class="labelbox">
+                    <span class="label label-success">正常</span>
+                    <span class="label label-primary">越南</span>
+                    <span class="label label-primary">國際</span>
+                    <span class="label label-primary">外交</span>
+                </div>
+            </div>
+            <div class="article">
+                <div class="titlebox">
+                    <h2 class="title">越南518反中遊行　日本也緊張</h2>
+
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-success" style="width: 60%"></div>
+                        <div class="progress-bar progress-bar-danger" style="width: 40%"></div>
+                    </div>
+                </div>
+
+                <div class="descbox">
+                    <div class="pic">
+                        <img src="img/002.jpg">
+                    </div>
+                    <p class="description">越南預計在明天發起全國性的反中大遊行，雖然該活動是從民間組織「越青」所發起的活動，但台商及多國廠商皆擔心會遭到波及和影響，其中日本政府也發出相關警示訊息。</p>
+                </div>
+                <div class="labelbox">
+                    <span class="label label-success">正常</span>
+                    <span class="label label-primary">越南</span>
+                    <span class="label label-primary">國際</span>
+                    <span class="label label-primary">外交</span>
+                </div>
+            </div>
+            <div class="article">
+                <div class="titlebox">
+                    <h2 class="title">越南明大遊行　​​旅遊警示調全境黃色</h2>
+
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-success" style="width: 50%"></div>
+                        <div class="progress-bar progress-bar-danger" style="width: 50%"></div>
+                    </div>
+                </div>
+                <div class="descbox">
+                    <div class="pic">
+                        <img src="img/003.jpg">
+                    </div>
+                    <p class="description">因應越南518遊行，行政院上午召開「越南暴動事件因應小組」第3次會議......</p>
+                </div>
+                <div class="labelbox">
+                    <span class="label label-success">正常</span>
+                    <span class="label label-primary">越南</span>
+                    <span class="label label-primary">國際</span>
+                    <span class="label label-primary">外交</span>
+                </div>
+            </div>
+            <div class="article">
+                <div class="titlebox">
+                    <h2 class="title">黃國昌、林飛帆、陳為廷　明組「島國前進」</h2>
+
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-success" style="width: 80%"></div>
+                        <div class="progress-bar progress-bar-danger" style="width: 20%"></div>
+                    </div>
+                </div>
+                <div class="descbox">
+                    <div class="pic">
+                        <img src="img/004.jpg">
+                    </div>
+                    <p class="description">太陽花學運4月10日離開立法院時，喊著口號是「出關播種」，強調當時並非句點，而是個逗號，如今傳出學運三巨頭黃國昌、林飛帆和陳為廷將組成「島國前進」新團體，預計明天召開記者會。</p>
+                </div>
+                <div class="labelbox">
+                    <span class="label label-success">正常</span>
+                    <span class="label label-primary">太陽花</span>
+                    <span class="label label-primary">學運</span>
+                    <span class="label label-primary">政治</span>
+                </div>
+            </div>
+            <div class="article">
+                <div class="titlebox">
+                    <h2 class="title">不明物體墜落黑龍江　俄方否認是火箭殘骸</h2>
+
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-success" style="width: 30%"></div>
+                        <div class="progress-bar progress-bar-danger" style="width: 70%"></div>
+                    </div>
+                </div>
+                <div class="descbox">
+                    <div class="pic">
+                        <img src="img/005.jpg">
+                    </div>
+                    <p class="description">黑龍江齊齊哈爾官方昨晚8時確認，5個不明飛行物體先後墜入黑龍江的依安縣和拜泉縣境內。5個不明飛行物體均無有毒氣體洩漏、無有毒液體洩漏，也無爆炸危險，並未對當地居民生活造成不良影響和財產損失。</p>
+                </div>
+                <div class="labelbox">
+                    <span class="label label-danger">打臉</span>
+                    <span class="label label-primary">俄羅斯</span>
+                    <span class="label label-primary">國際</span>
+                    <span class="label label-primary">中國</span>
+                </div>
+            </div>
+            <div class="article">
+                <div class="titlebox">
+                    <h2 class="title">一個國家兩個世界　北韓真實照片流出</h2>
+
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-success" style="width: 60%"></div>
+                        <div class="progress-bar progress-bar-danger" style="width: 40%"></div>
+                    </div>
+                </div>
+                <div class="descbox">
+                    <div class="pic">
+                        <img src="img/006.jpg">
+                    </div>
+                    <p class="description">北韓相當重視自己的國家形象，在對外流出的影片或相片中，他們總希望能給全世界一種富有與整齊一致的印象。至於到底北韓國內長什麼樣子，只有從偷拍到的畫面才能夠拼湊出來。</p>
+                </div>
+                <div class="labelbox">
+                    <span class="label label-success">正常</span>
+                    <span class="label label-primary">北韓</span>
+                    <span class="label label-primary">國際</span>
+                    <span class="label label-primary">攝影</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="sidebar_right">
+    </div>
 </body>
+
 </html>

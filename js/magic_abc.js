@@ -6,6 +6,10 @@ $(function(){
 		search($('#keyword').val());
 	})
 
+	$('#all').click(function(){
+		$('.article').show();
+	})
+
 	$('#green').click(function(){
 		search("正常");
 	})
@@ -23,5 +27,12 @@ $(function(){
 			}
 		})
 	}
+	$('#keyword').keypress(function(e){
+		console.log('aaa');
+    	if(e.keyCode == 13)
+    	{
+			search($('#keyword').val());
+    	}
+	});
 
 })

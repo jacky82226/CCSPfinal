@@ -1,86 +1,99 @@
-body{
-	background: #f6f6f6;
-	text-align: center;
+body {
+    background: #f6f6f6;
+    text-align: center;
+}
+p {
+    padding:0 10px 0 10px;
+}
+#sidebar_left {
+    position: fixed;
+    float: left;
+    background: white;
+    width: 320px;
+    margin-top: 30px;
 }
 
-p{
-	padding:0 10px 0 10px;
+#current {
+	color:white;
+    background-color:royalblue;
+    border-radius: 4px;
 }
 
+#tag_name{
+	color:white;
+}
+
+#hottag {
+    text-align: center;
+}
+.active {
+    margin:5px;
+}
+#sidebar_right {
+    position: fixed;
+    float: right;
+    background: white;
+    width: 320px;
+}
 .pic img {
-width:150px;
-height:90px;
-margin-top: 0px;
-padding-top: 0px;
+    width:150px;
+    height:9p0x;
+    margin-top: 0px;
+    padding-top: 0px;
 }
-
-.container{
-	width:700px;
-	background: #FFFFFF;
-	margin:0 auto;
-
+.container {
+    background: #FFFFFF;
+    width:700px;
 }
-
-.titlebox{
-	margin:0px;
-	position: relative;
+.titlebox {
+    margin:0px;
+    position: relative;
 }
-
-.descbox{
-	margin:0px;
-	position: relative;
+.descbox {
+    margin:0px;
+    position: relative;
 }
-
-.content{
-	width: 700px;
+.content {
+    width: 700px;
 }
-
-.labelbox{
-	float:right;
-	position: absolute;
-	bottom: 10px;
-	right:5px;
-
+.labelbox {
+    float:right;
+    position: absolute;
+    bottom: 10px;
+    right:5px;
 }
-
-.label{
-	margin:5px;
+.label {
+    margin:5px;
 }
-
-.article{
-	float:left;
-	width:700px;
-	height: 200px;
-	margin: 0 400px 20px -15px;
-	background-color: #DDDDFF;
-	text-align: left;
-	position: relative;
+.label:hover {
+    cursor:pointer;
 }
-
-.title{
-	max-height:60px;
+.article {
+    float:left;
+    width:700px;
+    height: 200px;
+    margin: 0 400px 20px -15px;
+    background-color: #DDDDFF;
+    text-align: left;
+    position: relative;
 }
-
-.pic{
-	float:left;
-
-
+.title {
+    max-height:60px;
 }
-
-.tagbar{
-	position: fixed;
-	float:left;
-	width: 320px;
+.pic {
+    float:left;
 }
-
-.tag{
-	margin:10px;
+.tagbar {
+    position: fixed;
+    float:left;
+    width: 320px;
 }
-
-.condition{
-	margin:10px;
+.tag {
+    margin:10px;
 }
-
-#logo_img{
-	margin-bottom:40px;
+.condition {
+    margin:10px;
+}
+#logo_img {
+    margin-bottom:40px;
 }
